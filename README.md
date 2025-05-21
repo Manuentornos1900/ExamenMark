@@ -17,7 +17,6 @@ Tabla de uso.
 | maria  | 26    | madrid |
 | rodrigo | 34   | Barcelona |
 ## Imagenes
-Las imagenes
 <img src="https://cdn.pixabay.com/photo/2017/06/04/23/57/stem-2372543_640.png" width="300" height="200">
 ## Instalación
 Como instalar
