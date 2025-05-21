@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExamenMark</title>
+    <!-- Enlaza el archivo CSS que has creado para aplicar estilo -->
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+    <!-- Contenedor principal para el contenido -->
+    <div class="content">
+        <h1>ExamenMark</h1>
+        <h2>Examen del mark este</h2>
+        
+        <!-- Esta es la sección donde el contenido del README.md será renderizado -->
+        <div id="markdown-content">
+            <!-- Aquí se insertará el contenido convertido de README.md a HTML -->
+        </div>
+    </div>
+
+    <!-- Este script convierte el README.md a HTML -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+    <script>
+        // Leemos el archivo README.md
+        fetch('README.md')
+            .then(response => response.text())  // Obtenemos el texto del archivo README.md
+            .then(text => {
+                // Usamos la librería Showdown para convertir el contenido Markdown a HTML
+                const converter = new showdown.Converter();
+                const html = converter.makeHtml(text);  // Convertimos el texto Markdown a HTML
+                document.getElementById('markdown-content').innerHTML = html;  // Insertamos el HTML convertido
+            });
+    </script>
+</body>
+</html>
