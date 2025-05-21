@@ -18,9 +18,7 @@ Tabla de uso.
 | rodrigo | 34   | Barcelona |
 ## Imagenes
 Las imagenes
-![Imagen](https://static4.depositphotos.com/1006994/298/v/950/depositphotos_2983099-stock-illustration-grunge-design.jpg)
-<img src="https://static4.depositphotos.com/1006994/298/v/950/depositphotos_2983099-stock-illustration-grunge-design.jpg" width="300" height="200">
-
+<img src="images/logo.png" width="300" height="200">
 ## Instalación
 Como instalar
 git clone https://github.com/Manuentornos1900/ExamenMark.git
