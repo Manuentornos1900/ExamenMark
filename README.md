@@ -16,6 +16,9 @@ Tabla de uso.
 | leo    | 25    | Torre |
 | maria  | 26    | madrid |
 | rodrigo | 34   | Barcelona |
+## Imagenes
+Las imagenes
+![Imagen](https://static4.depositphotos.com/1006994/298/v/950/depositphotos_2983099-stock-illustration-grunge-design.jpg)
 ## Instalación
 Como instalar
 git clone https://github.com/Manuentornos1900/ExamenMark.git
